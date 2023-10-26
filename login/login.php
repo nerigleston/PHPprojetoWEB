@@ -37,6 +37,8 @@ if (isset($_POST["nome"]) || isset($_POST["password"])) {
 <html>
 
 <head>
+  <title>Login</title>
+  <link rel="icon" href="./../assents/logo1.png" type="image/png">
   <style>
     body {
       background-color: #f0f0f0;

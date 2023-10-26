@@ -11,6 +11,7 @@ include("./protect.php");
     <meta http-equiv="X-UA-compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Juros simples</title>
+    <link rel="icon" href="./../assents/logo1.png" type="image/png">
     <script src="script_juros_simples.js" defer></script>
     <style>
         body {

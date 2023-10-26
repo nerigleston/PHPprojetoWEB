@@ -27,6 +27,8 @@ if (isset($_POST["nome"]) && isset($_POST["password"])) {
 <html>
 
 <head>
+  <title>Cadastro</title>
+  <link rel="icon" href="./../assents/logo1.png" type="image/png">
   <style>
     body {
       background-color: #f0f0f0;
@@ -83,7 +85,7 @@ if (isset($_POST["nome"]) && isset($_POST["password"])) {
 <body>
   <div class="container">
     <form method="post">
-    <img src="../assents/logo1.png" height="200px"></img>
+      <img src="../assents/logo1.png" height="200px"></img>
       <h1>Cadastro</h1>
       <label for="nome">Nome:</label>
       <input type="text" name="nome" id="nome" />
