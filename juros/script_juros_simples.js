@@ -1,32 +1,26 @@
-    const btn = document.querySelector("#ver");
-    btn.addEventListener("click",function(e) {
-    e.preventDefault();
- //   const capital = document.querySelector("#capital");
- //  const value = capital.value;
- //  console.log(value);
-    })
+const btn = document.querySelector("#ver");
+btn.addEventListener("click", function (e) {
+   e.preventDefault();
+})
 
-    var pegartaxa="";
+var pegartaxa = "";
 
-    var pegarcap="";
+var pegarcap = "";
 
-    var pegarmeses="";
+var pegarmeses = "";
 
-    function vendo(){
+function vendo() {
 
-    pegarcap = document.getElementById('capital').value;
-   // document.getElementById('capitalmo').innerHTML = pegarcap;
+   pegarcap = document.getElementById('capital').value;
 
-    pegartaxa = document.getElementById('taxa').value;
-   // document.getElementById('taxamo').innerHTML = pegartaxa;
+   pegartaxa = document.getElementById('taxa').value;
 
-    pegarmeses = document.getElementById('meses').value;
-   // document.getElementById('mesesmo').innerHTML = pegarmeses;
+   pegarmeses = document.getElementById('meses').value;
 
-    
 
-    var montante= (pegarcap*(1+(pegartaxa/100)*pegarmeses));
-    var montante= new Intl.NumberFormat('pt-BR', { style:'currency', currency: 'BRL'}).format(montante);
-    document.getElementById('montantemo').innerHTML = montante;
-    
-    }
+
+   var montante = (pegarcap * (1 + (pegartaxa / 100) * pegarmeses));
+   var montante = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(montante);
+   document.getElementById('montantemo').innerHTML = montante;
+
+}

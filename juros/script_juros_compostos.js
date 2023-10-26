@@ -1,9 +1,6 @@
 const btn = document.querySelector("#ver");
 btn.addEventListener("click",function(e) {
 e.preventDefault();
-//   const capital = document.querySelector("#capital");
-//  const value = capital.value;
-//  console.log(value);
 })
 
 var pegartaxa="";
@@ -15,13 +12,10 @@ var pegarmeses="";
 function vendo(){
 
 pegarcap = document.getElementById('capital').value;
-// document.getElementById('capitalmo').innerHTML = pegarcap;
 
 pegartaxa = document.getElementById('taxa').value;
-// document.getElementById('taxamo').innerHTML = pegartaxa;
 
 pegarmeses = document.getElementById('meses').value;
-// document.getElementById('mesesmo').innerHTML = pegarmeses;
 
 
 
