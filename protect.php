@@ -1,12 +1,28 @@
-<?php
+<!DOCTYPE html>
+<html lang="pt">
 
-if(!isset($_SESSION)) {
-    session_start();
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inválida</title>
+    <link rel="stylesheet" type="text/css" href="./../styles/protect.css">
+    <link rel="icon" href="./../assets/logo1.png" type="image/png">
 
-if(!isset($_SESSION["nome"])) {
-    die("Você não pode acessar.<p><a href = \"./index.php\">Entrar</a></p>");
-}
-?>
+</head>
 
+<body>
+    <div class="cont">
+        <?php
 
+        if (!isset($_SESSION)) {
+            session_start();
+        }
+
+        if (!isset($_SESSION["nome"])) {
+            die("Você não pode acessar.<a href = \"./../index.html\"><button>Entrar</button></a>");
+        }
+        ?>
+    </div>
+</body>
+
+</html>

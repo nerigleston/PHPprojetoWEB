@@ -1,8 +1,7 @@
 <?php
-
-include("./protect.php");
-
+include("./../protect.php");
 ?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -20,12 +19,11 @@ include("./protect.php");
 
     <div class="main-login">
         <div class="left-login">
-            <a href="./index.php" class="logoanima">
+            <a href="./../painel/painel.php" class="logoanima">
                 <img src="./../assets/logo1.png" height="200px"></img>
-
             </a>
             <h1 class="hq" id="hq"> Faça sua contabilidade</h1>
-
+            <a href="./../login/logout.php"><button>Sair da conta</button></a>
 
         </div>
         <div class="right-login">
@@ -43,15 +41,11 @@ include("./protect.php");
                     <label class="label"> Meses a pagar</label>
                     <input required class="cinza" type="number" name="meses" id="meses" placeholder="Meses a pagar">
                     <h1> <span class="bottomtext">Através de suas informações calcularemos por você</span></h1>
-
                     <div>
                     </div>
                     <input class="button" type="submit" value="Ver" id="btn-login" onclick="vendo()">
-                    <label for="">Seu montante é: </label>
-                    <p>R$ 0,00</p>
+                    <p id="montantemo" class="pjurosresul">R$ 0,00</p>
                 </div>
-
-
             </div>
         </div>
 </body>

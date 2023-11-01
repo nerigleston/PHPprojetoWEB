@@ -1,7 +1,5 @@
 <?php
-
-include("./protect.php");
-
+include("./../protect.php");
 ?>
 <!DOCTYPE html>
 <html>
@@ -19,13 +17,11 @@ include("./protect.php");
 <body>
     <div class="main-login">
         <div class="left-login">
-            <a href="index.php" class="logoanima">
+            <a href="./../painel/painel.php" class="logoanima">
                 <img src="./../assets/logo1.png" height="200px"></img>
-
             </a>
             <h1 class="hq" id="hq"> Faça sua contabilidade</h1>
-
-
+            <a href="./../login/logout.php" ><button>Sair da conta</button></a>
         </div>
         <div class="right-login">
             <div class="card-login">
@@ -49,8 +45,6 @@ include("./protect.php");
                     <label>Seu montante é: </label>
                     <p id="montantemo" class="pjurosresul">R$ 0,00</p>
                 </div>
-
-
             </div>
         </div>
     </div>
