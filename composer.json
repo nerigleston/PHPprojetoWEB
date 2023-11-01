@@ -1,7 +1,6 @@
 {
     "name": "PHPprojetoWEB",
     "require": {
-        // Suas dependências aqui
     },
     "scripts": {
         "test": "vendor/bin/phpunit"
