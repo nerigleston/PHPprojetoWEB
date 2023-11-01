@@ -44,6 +44,10 @@ include("./../protect.php");
                     <div>
                     </div>
                     <input class="button" type="submit" value="Ver" id="btn-login" onclick="vendo()">
+<<<<<<< HEAD
+=======
+                    <label for="">Seu montante é: </label>
+>>>>>>> 707f4c8d878e1b3853ba1b2d112544288bb10155
                     <p id="montantemo" class="pjurosresul">R$ 0,00</p>
                 </div>
             </div>
