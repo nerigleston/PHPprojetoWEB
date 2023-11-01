@@ -8,7 +8,7 @@ Que você pode calcular os juros simples ou compostos.
 
 ## Características
 
-- Cálculo para juros simples e compostos
+- Calculadora para juros simples e compostos
 - Banco de dados MySQL
 
 ## Software usado
