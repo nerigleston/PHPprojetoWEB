@@ -14,8 +14,8 @@ Que você pode calcular os juros simples ou compostos.
 ## Software usado
 
 - Xampp (Certifique de ativar o MySQL e o Apache)
-  * MySQL Database - (http://localhost/phpmyadmin/)
-  * Apache Web Server - (http://localhost)
+  * MySQL Database - (http://localhost/phpmyadmin/) ou (http://localhost:8080/phpmyadmin/)
+  * Apache Web Server - (http://localhost) ou (http://localhost:8080)
 
 ## Banco de dados:
 
