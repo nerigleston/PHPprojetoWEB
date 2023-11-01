@@ -29,14 +29,14 @@ USE phpteste;
 
 ### Estrutura da tabela
 
-`usuario`
-CREATE TABLE `usuario` (
+`login`
+CREATE TABLE `login` (
   `nome` varchar(255) DEFAULT NULL,
   `password` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`nome`) -- Define a coluna `nome` como chave primária
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-### Extraindo dados da tabela `usuario`
-### Inserindo um registro na tabela `usuario` com nome e senha
-INSERT INTO `usuario` (`nome`, `password`) VALUES
+### Extraindo dados da tabela `login`
+### Inserindo um registro na tabela `login` com nome e senha
+INSERT INTO `login` (`nome`, `password`) VALUES
 ('seu nome', 'sua senha');
