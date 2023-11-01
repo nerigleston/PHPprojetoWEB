@@ -6,6 +6,17 @@ Este é um projeto em desenvolvimento para a criação de um sistema de login e 
 
 Que você pode calcular os juros simples ou compostos.
 
+## Características
+
+- Cálculo para juros simples e compostos
+- Banco de dados MySQL
+
+## Software usado
+
+- Xampp
+  --MySQL Database - [PHP](http://localhost/phpmyadmin/)
+  --Apache Web Server - (http://localhost)
+
 ## Banco de dados:
 
 ### Cria o schema com o nome "phpteste"
@@ -29,4 +40,3 @@ CREATE TABLE `usuario` (
 ### Inserindo um registro na tabela `usuario` com nome e senha
 INSERT INTO `usuario` (`nome`, `password`) VALUES
 ('seu nome', 'sua senha');
-
