@@ -28,5 +28,5 @@ CREATE TABLE `usuario` (
 ### Extraindo dados da tabela `usuario`
 ### Inserindo um registro na tabela `usuario` com nome e senha
 INSERT INTO `usuario` (`nome`, `password`) VALUES
-('neri', '1234');
+('seu nome', 'sua senha');
 
