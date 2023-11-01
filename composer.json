@@ -1,5 +1,7 @@
 {
     "name": "neri/php-projeto-web",
+    "description": "Calculadora de Juros",
+    "license": "Neri",
     "require": {
     },
     "scripts": {
